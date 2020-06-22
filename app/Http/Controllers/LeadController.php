@@ -47,7 +47,15 @@ class LeadController extends Controller
             "enquiry" => "required",
             "message" => "required"
         ]);
-
+        $lead = new Lead;
+        $lead->title = $request->title;
+        $lead->first_name = $request->first_name;
+        $lead->last_name = $request->last_name;
+        $lead->email = $request->email;
+        $lead->phone = $request->phone;
+        $lead->enquiry = $request->enquiry;
+        $lead->message = $request->message;
+        $lead->save();
 
 
         Mail::to('info@vantworks.ca')->send(new ContactFormMail($data));
@@ -100,3 +108,4 @@ class LeadController extends Controller
         //
     }
 }
+
