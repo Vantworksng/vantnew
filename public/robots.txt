@@ -1,2 +1,8 @@
+User-agent: Googlebot
+Allow: /
+
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://www.vantworks.ca/sitemap.xml
+
