@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -15,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" >
 <meta name="description" content="Vantworks is a Saskatchewan based data analytics, web applications development and digital marketing company. Our solutions drive growth for startups and small businesses." >
 <meta name="keywords" content="Business intelligence, business analytics, data science, data analysis, machoine learning, website design, web applications, cloud Hosting, digital marketing, Canada website development, Saskatchewan web develoment, Saskatoon web develoment," >
-<title>Data Analytics, Digital Marketing, Web & Mobile App Development in Canada | Vantworks</title>
+<title> Web & Mobile App Development in Canada | Vantworks</title>
 <!-- Open graph tags -->
 <meta property="fb:app_id" content=""/>
 <meta property="og:url" content="index.html"/>
@@ -71,8 +70,8 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-168803143-1');
+  gtag('config', 'AW-613635280');
 </script>
 
 
@@ -152,20 +151,6 @@
 
 
 
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5ed3c502c75cbf1769f10388/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
 </body>
 

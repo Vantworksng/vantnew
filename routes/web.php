@@ -25,6 +25,12 @@ Route::get('/solutions/business', "PageController@business")->name('solution_bus
 
 Route::get('/about/contact', "PageController@contact")->name('about_contact');
 
+Route::get('/campaigns/get-webmobile', "PageController@webmobile")->name('campaign_webmoile');
+
+Route::get('/campaigns/launch-idea', "PageController@webapp")->name('campaign_webapp');
+
+Route::get('/campaigns/get-offer', "PageController@contactus")->name('campaign_contact');
+
 Route::get('/about/why-vantworks', "PageController@aboutWhy")->name('about_why');
 
 Route::get('/about/our-work', "PageController@aboutOur")->name('about_our');
@@ -38,3 +44,5 @@ Route::get('/about/privacy', "PageController@privacy")->name('privacy');
 Route::get('/about/cookie', "PageController@cookie")->name('cookie');
 
 Route::post('/leads/', "LeadController@store")->name('leads');
+
+Route::post('/campaigns/', "LeadController@save")->name('campaigns');

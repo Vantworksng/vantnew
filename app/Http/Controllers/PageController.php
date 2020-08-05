@@ -61,6 +61,26 @@ class PageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function webmobile()
+    {
+        return view('templates.campaign.webmobile');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function webapp()
+    {
+        return view('templates.campaign.webapp');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function aboutWhy()
     {
         return view('templates.about.why');
@@ -101,6 +121,18 @@ class PageController extends Controller
         return view('templates.contact', compact('titles', 'enquiries'));
     }
 
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function contactus()
+    {
+        $budgets = ["$1000 - $1499 (Save 30% - up to $450", "$1500 - $3999 (Save 30% - up to $1200", "$4000 - $10000 (Save Save 30% - up to $3000", "No Budget Yet"];
+        return view('templates.campaign.contactus', compact('budgets'));
+    }
     /**
      * Update the specified resource in storage.
      *

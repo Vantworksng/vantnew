@@ -1,3 +1,4 @@
+
 /* common */
 body{
 	font-family: Lato, 'Open Sans',Helvetica,Tahoma,sans-serif;
@@ -66,9 +67,34 @@ body{
 	 font-size: 30px;
 }
 
+.widget-capt{
+	padding-top:30px;
+	padding-bottom:60px;
+	background-color:#2A9BE1;
+	margin:0;
+	margin-top:30px;
+	margin-bottom:0px;
+	font-size:28px;
+}
+.widget-capt h1{
+	margin:0;
+	font-size:23px;
+}
+
+.widget-capt h3{
+	 margin-bottom:30px;
+	 text-align:center;
+	 font-weight: 600;
+	 font-size: 30px;
+}
+
 .widget-review a{
 	display:block;
 	text-align:center;
+}
+
+.brand-red{
+	background-color:#EE3824;
 }
 .widget-review img{
 	max-width:100%;
@@ -91,10 +117,6 @@ body{
  color:#FFFFFF;
 }
 
-
-.brand-red{
-	background-color:#EE3824;
-}
 
 .brand-blue-bkg{
 	background-color:#2A9BE1;
@@ -178,6 +200,7 @@ body{
 	color:#fff;
 }
 
+
 .benefits .row{
 	margin-top:30px;
 	margin-bottom:50px;
@@ -199,6 +222,7 @@ body{
 .benefits .col-sm-6, .benefits .col-sm-5, .benefits .col-sm-7{
 	margin-top:40px;
 }
+
 .benefits .icon{
 	width:180px;
 	height:180px;
@@ -834,9 +858,18 @@ body{
 	/*background-attachment: fixed;*/
 	background-position:center center;
 	margin: 0px 0px 0px 0px;
-	padding: 160px 0px 160px 0px;
+	padding: 160px 0px 260px 0px;
 }
 
+.text-capt {
+  	width:100%;
+  	height:740px;
+}
+
+.text-capt .inner-row {
+  	margin: 0px 0px 0px 0px;
+  	padding: 120px 0px 260px 0px;
+}
 .widget-header-banner h1{
 	margin:0;
 	text-align: center;
@@ -869,6 +902,9 @@ body{
 .widget-override div h2{
 	color: #FFFFFF;
 }
+.widget-cta-bg-cm{
+	background-image:url(../image/home/benefits.png);
+}
 .widget-cta-bg-hm{
 	background-image:url(../image/home/1600x300_BlueGradient.png);
 }
@@ -876,7 +912,8 @@ body{
 	background-image:url(../image/home/1600x300_BlueGradient.png);
 }
 .widget-pg-dm{
-	background-image:url(../image/home/tech-guy-laptop.jpg);
+	background-image:url(../image/home/business_lady.jpg);
+
 }
 
 .solutions{
@@ -1537,32 +1574,32 @@ list-style-image:none;
 	margin:50px auto 50px;
 }
 
-.cta-container .btn-cta,.btn-cta:visited{
+.cta-container .btn-cta{
 	background-color:#2A9BE1;
 	border-color:#2A9BE1;
 	color:#FFFFFF;
 	font-weight:bold;
 	text-decoration:none;
 }
-.cta-container .btn-cta:hover,.cta-container .btn-cta:focus{
+.cta-container .btn-cta:hover{
 	background-color:#FFFFFF;
 	/**border-color:#F07C29;**/
-	border-color:#F05A28;
-	color:#F05A28;
+	border-color:#F7786A;
+	color:#F7786A;
 	text-decoration:underline;
 }
 
-.btn-cta,.btn-cta:visited{
-	background-color:#F05A28;
-	border-color:#F05A28;
+.btn-cta{
+	background-color:#F7786A;
+	border-color:#F7786A;
 	color:#FFFFFF;
 	font-weight:bold;
 	text-decoration:none;
 }
 .btn-cta:hover,.btn-cta:focus{
-	background-color:#F07C29;
-	border-color:#F07C29;
-	color:#FFFFFF;
+	background-color:#FFFFFF;
+	border-color:#F7786A;
+	color:#F7786A;
 	text-decoration:underline;
 }
 
@@ -1802,3 +1839,4 @@ footer.eu-cookie-visible{
 
 
 /* end: new classes */
+

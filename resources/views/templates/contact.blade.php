@@ -160,8 +160,8 @@
         <script>
             $(document).ready(function() {
                 swal({
-                    title: "Thank for contacting us.",
-                    text: "We'd get back to you sonn",
+                    title: "Thanks for contacting us.",
+                    text: "We'll get back to you soon",
                     icon: "success",
                 });
                 // swal("Good job!", "You clicked the button!", "success");

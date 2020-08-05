@@ -40,34 +40,30 @@ $(document).ready(function(){
 
 	$("#leadForm").validate({
 		rules: {
-				first_name: "required",
-				last_name: "required",
-
-
+				name: "required",
+				
 				email: {
 					required: true,
 					email: true
 				},
-				company: "required",
+				phone: "digits",
 				/*website: "required",*/
-				position: "required",
 				budget: "required",
 				message: "required",
 
 			},
 	    messages: {
-				first_name: "First name required",
-				last_name: "Last name required",
-				company: "Your company name is required",
+				name: "Your name required",
+				phone: "Please enter a valid phone number",
 
 				email: "Please enter a valid email address",
-				/*website: "Please enter your company website URL",*/
-				position: "Please state your position at your company",
+				/*website: "Please enter your company website URL",*/,
 				budget: "Please state your budget",
 				message: "Please provide your message"
 			}
 
 		});
+
 
 /*jquery form validation configuration. The following is for the contact page form page validation*/
 		$("#contactUsForm").validate({
